@@ -21,14 +21,12 @@ class Student extends Person {
     super(name, email);
     this.attendance = [];
   }
-}
-
-// Another method on the `Student` class called `calculateAttendance`,
+// A second method on the `Student` class called `calculateAttendance`,
 // that gives a percentage of how many days the student was present and 
 // returns a string like `90%`. Attendance is recorded into an Array using 
 // either a `0` for "absent" or a `1` for "present", allowing attendance percentage 
 // to be calculated as the average of all the items in the `attendance` Array.
-calculateAttendance(){
+  calculateAttendance(){
     if (this.attendance.length > 0) {
       let counter = 0;
       for (let mark of this.attendance){
@@ -39,6 +37,7 @@ calculateAttendance(){
   } else {
     return "0%";
   }
+}
 }
 
 // Another class that extends the `Person` class called `Teacher`.
