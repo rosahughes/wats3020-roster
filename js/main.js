@@ -118,7 +118,7 @@ markAttendance(username, status='present'){
 // Prompt the user for the `courseCode` (the number/code of the course, like "WATS 3000").
 let courseCode = prompt('Enter the course code (e.g. WATS 3020):');
 // Prompt the user for the `courseTitle` (the name of the course, like "Introduction to JavaScript").
-let courseTitle = prompt('Enter the course name (e.g. "Introduction to JavaScript):');
+let courseTitle = prompt('Enter the course name (e.g. Introduction to JavaScript):');
 // Prompt the user for the  `courseDescription` (the descriptive summary of the course).
 let courseDescription = prompt('Enter the course description:');
 // Create a new `Course` object instance called `myCourse` using the three data points just collected from the user.
